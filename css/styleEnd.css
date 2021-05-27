@@ -1,0 +1,88 @@
+*{
+    font-family: 'McLaren';
+    /* background-color: #d5dbdf;} */
+}
+header{
+    padding-top: 1em;
+    padding-bottom: 0em;
+    padding-left: 0.7em;
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+}
+.Score{
+    text-align: center;
+}
+.report{
+    text-align: center;
+}
+.End{
+    text-align: center;
+}
+.Choice > button, p{
+    display: inline;
+}
+.overview{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.main{
+    padding: 5em 10em 7em 10em;
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+}
+section{
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+}
+.Choice{
+    padding: 2em;
+}
+.attempt{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.col{
+    text-align: center;
+}
+.attempt1, .attempt2{
+    border-right: 1px solid white;
+}
+button{
+    background-color: #80ed99;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 1em 2em 2em 2em;
+    text-align: center;
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+}
+#logo{
+    height:30%;
+    width: 30%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: inline-block;
+
+}
+::-webkit-scrollbar{
+    width: 1em;
+}
+::-webkit-scrollbar-track{
+    border: 7px solid #05668d;
+    /* box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5); */
+    background: #056685;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(40deg, #56cca5, #a4ff7d);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(50deg, #a4ff7d, #56cca5);
+    border-radius: 10px;
+}
+
+

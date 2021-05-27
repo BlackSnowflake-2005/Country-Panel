@@ -1,0 +1,127 @@
+*{
+    font-family: 'McLaren';
+}
+/* header {
+    padding: 1em;
+    /* background: linear-gradient(to right, #03045e, #056685, #57cc99); */
+    /* background: linear-gradient(to right, #03045e, #056685);  
+    color: #fff;
+    /* text-align: center; }*/
+
+/* header img {
+    width: 95px;
+    height: 95px;
+    float: left;
+} */
+
+/* header h2 {
+    font-size: 30px;
+    text-align: center;
+    color: green;
+} */
+header{
+    padding-top: 1em;
+    /* padding-bottom: 1em; */
+    padding-left: 0.7em;
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+}
+header :nth-child(1){
+    order: 1;
+}
+header :nth-child(2){
+    order: 2;
+}
+.heading__main{
+    text-align: center;
+    margin-right: 9em;
+    margin-top: 0.5em;
+}
+.globe {
+    max-width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+
+}
+.namebox {
+    max-width: 100%;
+    height: 75px;
+    text-align: center;
+    padding: 1em 6em 5em 6em;
+    margin: auto;
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+}
+
+.head{
+    text-align: left;
+}
+
+.choose{
+    padding-left: 1.5em;
+}
+/* .namebox.userbox {}
+
+.namebox.userbox input {} */
+
+input[type=text]{
+    padding: 7px;
+    border-radius: 0.5em;
+    border: 1px white;
+}
+
+#footer{
+    background: linear-gradient(to right, #03045e, #056685); ;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 1em 2em 2em 2em;
+    text-align: center;
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+}
+area{
+    outline: none;
+}
+.rules{
+    background: linear-gradient(to right, #03045e, #056685);
+    color: #fff; 
+    /* padding: 1em 2em 2em 2em; */
+    padding: 2em;
+    
+}
+hr.line{
+    border: 1px solid white;
+    /* border-radius: 5px; */
+}
+#logo{
+    height:30%;
+    width: 30%;
+    margin-left: 0%;
+    margin-right: 0%;
+    float: left;
+
+}
+::-webkit-scrollbar{
+    width: 1em;
+}
+::-webkit-scrollbar-track{
+    border: 7px solid #05668d;
+    /* box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5); */
+    background: #056685;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(40deg, #56cca5, #a4ff7d);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(50deg, #a4ff7d, #56cca5);
+    border-radius: 10px;
+}

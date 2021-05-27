@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sigmar+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+}
+#logo{
+    height:40%;
+    width: 40%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: inline-block;
+}
+.container {
+    width: 100%;
+     padding-right: 0px; 
+     padding-left: 0px; 
+     margin-right: 0; 
+     margin-left: 0; 
+     
+}
+nav{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.navbar{
+    padding: 0;
+}
+.bg-dark{
+    background: linear-gradient(90deg, #03045e, #05668d) !important;
+}
+/* .left{
+    margin: auto;
+    padding: 2em;
+} */
+.right{
+    background-color: white;
+}
+.containerBx{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+.right{
+    padding: 3em 10em 5em 10em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.right{
+    text-align: left;
+}
+.right h1{
+    font-weight: 600;
+    line-height: 60px;
+}
+.right i{
+    color: #39a073;
+    font-size: 1.3em;
+}
+.right h3{
+    font-size: 1.8em;
+    line-height: 40px;
+}
+.right p{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 1em 2em 2em 2em;
+    text-align: center;
+    background: linear-gradient(to right, #03045e, #056685); 
+    color: #fff;
+    margin-top: 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.left{
+    text-align: center;
+    padding: 5em;
+    margin-left: 5em;
+}
+.left h3{
+    font-weight: 500;
+    line-height: 60px;
+}
+.left h2{
+    font-weight: 700;
+}
+.left p{
+    margin-bottom: 0;
+}
+.left button{
+    margin: 4px;
+}
+::-webkit-scrollbar{
+    width: 0.9em;
+}
+::-webkit-scrollbar-track{
+    border: 7px solid transparent;
+    /* box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5); */
+    /* background: #056685; */
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    /* background: linear-gradient(40deg, #56cca5, #a4ff7d, #56cca5); */
+     /* background: gray; */
+     background: rgb(204, 203, 203);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+    /* background: linear-gradient(50deg, #a4ff7d, #56cca5); */
+    /* background: linear-gradient(40deg, #a4ff7d, #56cca5, #a4ff7d); */
+    background: rgb(185, 185, 185);
+    border-radius: 10px;
+}
+#confetti{
+    position: fixed;
+    top: 0%;
+    position: absolute;
+}
